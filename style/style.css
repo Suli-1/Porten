@@ -1,0 +1,608 @@
+@import "fonts.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Post No Bills Jaffna", "PT Sans", "Playfair Display", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#scrollTop {
+    position: fixed;
+    bottom: 150px;
+    left: 70px;
+    font-size: 40px;
+    z-index: 999;
+    color: #969696;
+}
+
+#scrollTop:hover {
+    transform: scale(1.2);
+    color: #FFFFFF;
+}
+
+.isShowBtn {
+    opacity: 1;
+    transition: all .1s;
+}
+
+.header__head-inner {
+    font-family: 'PT Sans', sans-serif;
+    background: #000;
+    padding: 15px 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-number__time {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.header__number {
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.header-number__time {
+    padding: 0 10px;
+    border-left: 1px solid #969696;
+    border-right: 1px solid #969696;
+}
+
+.time {
+    padding: 0 10px;
+}
+
+.header__sign-up {
+    display: flex;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.fa-sign-in-alt {
+    margin-right: 10px;
+}
+
+.signing {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.header__inner {
+    padding: 15px 0;
+    background: #0F0F0F;
+}
+
+.header__logo {
+    font-family: 'Post No Bills Jaffna', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header__menu-list-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header__menu-link {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+.menu__link-Liked {
+    padding: 33px 20px;
+    background: #1F1F1F;
+}
+
+.menu__icon-cart {
+    margin: 0 45px 0 75px;
+}
+
+#hero {
+    min-height: 810px;
+    background: url("../images/background/hero/hero-bg.png") center center/cover no-repeat;
+}
+
+.hero__content {
+    padding-top: 160px;
+}
+
+.hero__content-porte {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+    padding: 90px 0;
+    border: 4px solid #FFFFFF;
+}
+
+.hero__content-title {
+    width: 185px;
+    margin: 0 auto;
+    font-family: 'Post No Bills Jaffna', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: 2px solid #fff;
+}
+
+.hero__content-desc {
+    display: block;
+    margin-top: 10px;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero__desc {
+    display: block;
+    width: 730px;
+    margin: 80px auto 0 auto;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#season {
+    min-height: 730px;
+    display: flex;
+}
+
+.col-6__clock {
+    width: 55%;
+    background: black;
+}
+
+.season__item {
+    padding: 90px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season__item-row {
+    display: flex;
+    margin: 0 -25px;
+}
+
+.season__col-4 {
+    width: 33.3333%;
+    min-height: 325px;
+    padding: 0 25px;
+}
+
+.season__title {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.season__line {
+    width: 120px;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+
+.season__col-4-item {
+    height: 325px;
+    background: #191B1C;
+    padding: 55px 0;
+}
+
+.season__col-4-title {
+    display: inline-block;
+    margin: 25px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.season__col-4-desc {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.season__col-6-New-collection {
+    width: 45%;
+    padding: 484px 200px 0;
+    background: url("../images/background/season/season__bg.png") no-repeat;
+    background-size: cover;
+}
+
+.season__col-6-New-collection-image {
+    width: 100%;
+    height: 100%;
+}
+
+.season__item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season__item-content-title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.content__line {
+    margin: 30px 0;
+}
+
+.season__item-content-link {
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 12px 30px;
+}
+
+#viewing {
+    min-height: 600px;
+}
+
+.viewing__row {
+    width: 100%;
+    display: flex;
+}
+
+.viewing__col-6-bg {
+    width: 45%;
+}
+
+.viewing__item-bg {
+    min-height: 600px;
+    background: url("../images/background/viewing/vieving-bg.png") center center/cover no-repeat;
+}
+
+.viewing__col-6 {
+    width: 55%;
+    background: black;
+    padding: 100px 0;
+}
+
+.viewing__item {
+    width: 100%;
+    text-align: center;
+}
+
+.viewing__item-title {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.viewing__line {
+    margin: 40px auto 40px auto;
+}
+
+.viewing__item-desc {
+    display: block;
+    margin: 0 auto;
+    width: 470px;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.viewing__item-link {
+    display: inline-block;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 10px 30px;
+    margin-top: 60px;
+}
+
+#new-collections {
+    min-height: 1290px;
+    background: black;
+    padding: 120px 0;
+}
+
+.new-collections__title {
+    display: table;
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.new-collections__line {
+    margin: 40px auto 80px auto;
+}
+
+.new-collections__row {
+    margin: 0 -12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 12px;
+}
+
+.item {
+    min-height: 405px;
+}
+
+.collections__item-inner {
+    width: 100%;
+    height: 325px;
+    background: #191B1C;
+    padding: 55px 20px;
+}
+
+.collections__item-title {
+    display: inline-block;
+    margin: 25px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.collections__item-desc {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.new-collections__row-bottom {
+    margin-top: 40px;
+}
+
+#brands {
+    min-height: 365px;
+    background: black;
+    padding: 60px 0 150px 0;
+}
+
+.brands__row {
+    margin: 0 -15px;
+}
+
+.brands__col-3 {
+    padding: 0 15px;
+}
+
+.brands__title {
+    display: block;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.brands__line {
+    margin: 40px auto;
+}
+
+#info {
+    min-height: 400px;
+    padding: 80px 0 100px 0;
+    background: url("../images/background/brands/brands-bg.png") center center/cover no-repeat;
+}
+
+.info__col-4 {
+    width: 350px;
+}
+
+.info__item-title {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.info__item-desc {
+    width: 350px;
+    display: inline-block;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.info__links {
+    width: 350px;
+}
+
+.info__item-link {
+    display: inline-block;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #D0D0D0;
+    padding: 10px 20px;
+    background: black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+#email {
+    width: 350px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#email::placeholder {
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #969696;
+    padding: 10px 0 10px 15px;
+}
+
+.email__btn {
+    display: inline-block;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background: #000000;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+
+
+.footer {
+    padding: 17px 0;
+    background: black;
+}
+
+.footer__protection {
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #D0D0D0;
+}
+
+.footer__author {
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #D0D0D0;
+}
+
+
+
+

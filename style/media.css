@@ -1,0 +1,246 @@
+@media (min-width: 1200px) {
+
+    .burger__icon {
+        display: none;
+    }
+
+    .media__menu {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .burger__icon {
+     display: none;
+ }
+
+    .media__menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .burger {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: 50px;
+        transition: all .5s;
+        background: #FFFFFF;
+    }
+
+    .media__menu {
+        width: 330px;
+        background: #00000050;
+        padding: 30px 70px;
+        transition: all .5s;
+    }
+
+    .media__menu-list {
+        list-style-type: none;
+    }
+
+    .media__menu-link {
+        color: #969696;
+        transition: all .2s;
+    }
+
+    .media__menu-link:hover {
+        color: #FFFFFF;
+        transform: scale(1.1);
+    }
+
+    .media__menu-list-item:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    .burger__icon {
+        display: flex;
+        position: fixed;
+        left: 70px;
+        top: 50px;
+        transition: all .2s;
+    }
+
+    .burger__icon-right {
+        display: flex;
+        position: fixed;
+        top: 50px;
+        left: 400px;
+    }
+
+    .burger__btn {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .burger__btn span:nth-child(1) {
+        width: 25px;
+        height: 3px;
+        display: inline-block;
+        background: #D0D0D0;
+        margin: 5px 0;
+        transition: all .2s;
+    }
+
+    .burger__btn span:nth-child(2) {
+        width: 25px;
+        height: 3px;
+        display: inline-block;
+        background: #D0D0D0;
+        margin: 5px 0;
+        transition: all .2s;
+    }
+
+    .burger__btn span:nth-child(3) {
+        width: 25px;
+        height: 3px;
+        display: inline-block;
+        background: #D0D0D0;
+        margin: 5px 0;
+        transition: all .2s;
+    }
+
+    .burger__btn-active span:nth-child(1) {
+        position: absolute;
+        top: -400px;
+    }
+
+    .burger__btn-active span:nth-child(2) {
+        width: 25px;
+        transform: rotate(-50deg) translateY(9px) translateX(-2px);
+    }
+
+    .burger__btn-active span:nth-child(3) {
+        width: 25px;
+        height: 3px;
+        transform: rotate(50deg) translateY(-8px) translateX(0px);
+    }
+
+    .icon__cart {
+        margin: 0 20px;
+    }
+
+    .header__inner {
+        display: none;
+    }
+
+    .container {
+        max-width: 911px;
+    }
+
+    .row {
+        align-items: center;
+    }
+
+    .hero__desc {
+        font-size: 10px;
+    }
+
+    #season {
+        flex-direction: column;
+    }
+
+    .col-6__clock {
+        width: 100%;
+    }
+
+    .season__col-6-New-collection {
+        width: 100%;
+    }
+
+    .season__item-content {
+        padding-bottom: 100px;
+    }
+
+    .viewing__row {
+        flex-direction: column;
+    }
+
+    .viewing__col-6-bg {
+        width: 100%;
+    }
+
+    .viewing__col-6 {
+        width: 100%;
+    }
+
+    .new-collections__row {
+        margin: -12px 0;
+    }
+
+    .col-3 {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .item {
+        min-height: 0;
+    }
+
+    .brands__row {
+        margin: 15px 0;
+    }
+
+    .brands__col-3 {
+        padding: 15px 0;
+    }
+
+    .brands__item {
+        height: 95px;
+    }
+
+    .info__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info__col-4 {
+        width: 100%;
+    }
+
+    .info__item-title {
+        margin: 20px 0;
+    }
+
+    .info__item-desc {
+        width: 100%;
+    }
+
+    .info__links {
+        width: 100%;
+    }
+
+    .label {
+        width: 50%;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    .footer__row {
+        justify-content: center;
+        align-items: normal;
+    }
+
+    .footer__author{
+        margin-left: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 468px) {
+
+}
